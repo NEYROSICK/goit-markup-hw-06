@@ -456,6 +456,7 @@ a {
   border: 1px solid var(--clr-footer-form-border);
   filter: drop-shadow(0px 4px 4px var(--clr-footer-form-dropshadow));
   border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input::placeholder {
@@ -633,7 +634,7 @@ a {
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon {
@@ -683,6 +684,7 @@ a {
   width: 18px;
   height: 18px;
   fill: var(--clr-secondary);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon-misc {

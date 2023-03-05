@@ -420,10 +420,7 @@
         <div class="email-container">
           <form class="email-form" name="email-form" autocomplete="off">
             <div class="email-field">
-              <label
-                class="footer-title footer-highlight"
-                name="email"
-                for="email"
+              <label class="footer-title footer-highlight" for="email"
                 >Subscribe</label
               >
               <input
@@ -436,14 +433,12 @@
                 required
               />
             </div>
-            <div class="email-submit">
-              <button class="footer-button footer-highlight" type="submit">
-                <p>Subscribe</p>
-                <svg class="footer-icon">
-                  <use href="./images/icons.svg#icon-paper-plane"></use>
-                </svg>
-              </button>
-            </div>
+            <button class="footer-button footer-highlight" type="submit">
+              <span>Subscribe</span>
+              <svg class="footer-icon">
+                <use href="./images/icons.svg#icon-paper-plane"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -487,7 +482,7 @@
                 type="tel"
                 name="user-phone"
                 pattern="^\+[0-9]{12}"
-                title="Номер повинен складатися із 12 цифр"
+                title="Номер повинен складатися із 12 цифр і починатись із &quot+&quot та коду країни"
                 required
               />
               <svg class="contact-icon contact-icon-misc">
