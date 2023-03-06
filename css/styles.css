@@ -393,12 +393,14 @@ a {
 .footer-container {
   display: flex;
   flex-direction: row;
-  gap: 80px;
 }
 
 .info-container {
-  display: flex;
-  gap: 120px;
+  margin-right: 120px;
+}
+
+.socials-container {
+  margin-right: 80px;
 }
 
 .footer-text {
@@ -487,9 +489,7 @@ a {
   border-color: var(--clr-brand-interaction);
 }
 
-.footer-icon {
-  width: 24px;
-  height: 24px;
+.submit-icon {
   fill: var(--clr-secondary-inverted);
 }
 
