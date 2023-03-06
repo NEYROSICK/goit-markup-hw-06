@@ -698,9 +698,10 @@ a {
   margin: 0;
 }
 
-.contact-legend {
+.contact-title {
   text-align: center;
   font-weight: 500;
+  font-size: inherit;
   color: var(--clr-secondary);
   letter-spacing: 0.02em;
   margin-bottom: 16px;
