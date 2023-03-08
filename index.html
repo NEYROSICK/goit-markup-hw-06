@@ -511,18 +511,20 @@
             name="user-comment"
             placeholder="Text input"
           ></textarea>
-
-          <input
-            class="checkbox-input"
-            id="terms-conditions"
-            type="checkbox"
-            name="terms-conditions"
-            required
-          />
-          <label class="checkbox-label contact-text" for="terms-conditions">
-            I accept the terms and conditions of the
-            <a href="#" class="contact-link"> Privacy Policy</a>
-          </label>
+          <div class="contact-checkbox">
+            <input
+              class="checkbox-input"
+              id="terms-conditions"
+              type="checkbox"
+              name="terms-conditions"
+              required
+            />
+            <span class="checkbox-icon"></span>
+            <label class="checkbox-label contact-text" for="terms-conditions">
+              I accept the terms and conditions of the
+              <a href="#" class="contact-link"> Privacy Policy</a>
+            </label>
+          </div>
 
           <button class="hero-button submit-button" type="submit">Send</button>
         </form>
